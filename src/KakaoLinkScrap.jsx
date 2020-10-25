@@ -1,6 +1,6 @@
 import React from "react"
 
-function KaKaoLinkDefault({ children, requestUrl, jsKey }) {
+function KaKaoLinkDefault({ children, requestUrl, jsKey, className }) {
   React.useEffect(() => {
     let id = "kakao-link-api"
     if (document.getElementById(id) == null) {
@@ -20,7 +20,7 @@ function KaKaoLinkDefault({ children, requestUrl, jsKey }) {
     window.Kakao.Link.sendScrap({ requestUrl })
   }
 
-  return <div onClick={onLink}>{children}</div>
+  return <div className={className} onClick={onLink}>{children}</div>
 }
 
 export default KaKaoLinkDefault

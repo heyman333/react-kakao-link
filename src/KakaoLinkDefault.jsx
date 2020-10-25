@@ -20,7 +20,7 @@ function KaKaoLinkDefault({ children, template, jsKey, className }) {
     window.Kakao.Link.sendDefault(template)
   }
 
-  return <div onClick={onLink} id="kakao-link-btn">{children}</div>
+  return <div onClick={onLink}>{children}</div>
 }
 
 export default KaKaoLinkDefault
