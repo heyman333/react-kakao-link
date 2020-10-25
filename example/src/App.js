@@ -1,6 +1,5 @@
-import logo from "./logo.svg"
-import KaKaoLink from "react-kakao-link"
 import "./App.css"
+import { KakaoLinkDefault, KakaoLinkScrap } from "react-kakao-link"
 
 function App() {
     const template = {
@@ -41,9 +40,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <KaKaoLink template={template} jsKey={"1ee5cc9e2e4525c244069216d2522870"}>
+        <KakaoLinkDefault template={template} jsKey={"1ee5cc9e2e4525c244069216d2522870"}>
           <button>카카오톡 공유하기</button>
-        </KaKaoLink>
+        </KakaoLinkDefault>
+        <KakaoLinkScrap requestUrl="https://developers.kakao.com">
+          <button>카카오톡 공유하기 스크랩</button>
+        </KakaoLinkScrap>
       </header>
     </div>
   )
