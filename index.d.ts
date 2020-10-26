@@ -1,13 +1,13 @@
 interface KakaoLinkDefaultProps {
     template: any;
     jsKey: string;
-    className: string;
+    className?: string;
 }
 
 interface KakaoLinkScrapProps {
     requestUrl: string;
     jsKey: string;
-    className: string;
+    className?: string;
 }
 
 
