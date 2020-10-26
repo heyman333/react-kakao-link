@@ -68,9 +68,9 @@ export default App;
 ```
 
 ## how to use
- 1. 카카오 개발자 홈페이지 [애플리케이션 등록](https://developers.kakao.com/docs/latest/ko/getting-started/app)에서 웹으로 플랫폼을 등록합니다.
- 2. JavaScript 키를 등록 받습니다.
- 3. 템플릿에서 사용되는 link url 은 사이트 도메인에 등록 되어야 합니다.
+ 1. 카카오 개발자 홈페이지 [애플리케이션 등록](https://developers.kakao.com/docs/latest/ko/getting-started/app)을 참조하여 개발자 페이지에 웹으로 플랫폼을 등록합니다.
+ 2. JavaScript 키를 발급 받습니다.
+ 3. 템플릿에서 사용되는 link url 은 [사이트 도메인](https://developers.kakao.com/console/app/488557/config/platform)에 등록 되어야 합니다. (ex: `webUrl: "https://developers.kakao.com"`)
 
 ## props
   
