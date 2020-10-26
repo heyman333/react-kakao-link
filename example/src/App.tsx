@@ -1,7 +1,5 @@
 import React from 'react';
-import { KakaoLinkDefault } from "react-kakao-link"
-import logo from './logo.svg';
-import './App.css';
+import { KakaoLinkDefault, KakaoLinkScrap } from "react-kakao-link"
 
 function App() {
   const template = {
@@ -40,26 +38,23 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div>
+        <KakaoLinkDefault
+          className="template"
+          template={template}
+          jsKey={"1ee5cc9e2e4525c244069216d2522870"}
         >
-          Learn React
-        </a>
-        <KakaoLinkDefault className="" template={template} jsKey={"1ee5cc9e2e4525c244069216d2522870"}>
-          <button>카카오링크</button>
+          <button>카카오링크 템플릿</button>
         </KakaoLinkDefault>
-      </header>
+        <KakaoLinkScrap
+          className="scrap"
+          requestUrl={"https://developers.kakao.com"}
+          jsKey={"1ee5cc9e2e4525c244069216d2522870"}
+        >
+          <button>카카오링크 스크랩</button>
+        </KakaoLinkScrap>
     </div>
-  );
+  )
 }
 
 export default App;
