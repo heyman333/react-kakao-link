@@ -1,3 +1,16 @@
+ [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/heyman333/react-kakao-link/pulls)
+[![Platform](https://img.shields.io/badge/platform-react-lightgrey.svg)](http://facebook.github.io/react/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/heyman333/react-kakao-link/blob/master/LICENSE)
+
+<a href="https://www.npmjs.com/package/react-kakao-link">
+<img alt="npm version" src="http://img.shields.io/npm/v/react-kakao-link.svg?style=flat-square">
+</a>
+<a href="https://www.npmjs.com/package/react-kakao-link">
+<img src="http://img.shields.io/npm/dm/react-kakao-link.svg?style=flat-square">
+</a>
+
+
+
 # react-kakao-link
 
 리액트 웹에서 사용할 수 있는 카카오 링크입니다.
