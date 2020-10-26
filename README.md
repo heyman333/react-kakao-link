@@ -4,7 +4,8 @@
 
 ## example
 
-```tsimport React from 'react';
+```ts
+import React from 'react';
 import { KakaoLinkDefault, KakaoLinkScrap } from "react-kakao-link"
 
 function App() {
