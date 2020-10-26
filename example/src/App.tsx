@@ -1,7 +1,8 @@
+import React from "react"
 import "./App.css"
 import { KakaoLinkDefault, KakaoLinkScrap } from "react-kakao-link"
 
-function App() {
+const App: React.FunctionComponent = () => {
     const template = {
       objectType: "feed",
       content: {
@@ -40,10 +41,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <KakaoLinkDefault template={template} jsKey={"1ee5cc9e2e4525c244069216d2522870"}>
+        <KakaoLinkDefault template={template} jsKey={"1ee5cc9e2e4525c244069216d2522870"} className="">
           <button>카카오톡 공유하기</button>
         </KakaoLinkDefault>
-        <KakaoLinkScrap requestUrl="https://developers.kakao.com">
+        <KakaoLinkScrap requestUrl="https://developers.kakao.com" className="" jsKey={"1ee5cc9e2e4525c244069216d2522870"}>
           <button>카카오톡 공유하기 스크랩</button>
         </KakaoLinkScrap>
       </header>
