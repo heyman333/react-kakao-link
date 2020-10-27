@@ -1,6 +1,6 @@
 {
   "name": "react-kakao-link",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React용 카카오 링크",
   "main": "./dist/index.js",
   "files": [
