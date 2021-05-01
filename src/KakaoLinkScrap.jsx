@@ -14,7 +14,7 @@ function KakaoLinkDefault({ children, requestUrl, jsKey, className }) {
 
       document.body.append(js)
     }
-  })
+  }, [])
 
   const onLink = () => {
     window.Kakao.Link.sendScrap({ requestUrl })
