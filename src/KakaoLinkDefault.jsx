@@ -14,7 +14,7 @@ function KakaoLinkDefault({ children, template, jsKey, className }) {
 
       document.body.append(js)
     }
-  })
+  }, [])
 
   const onLink = () => {
     window.Kakao.Link.sendDefault(template)
