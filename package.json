@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "description": "React용 카카오 링크",
   "main": "./dist/index.js",
+  "types": "./index.d.ts",
   "files": [
-    "dist"
+    "./dist",
+    "./index.d.ts"
   ],
-  "typings": "index.d.ts",
   "repository": "https://github.com/heyman333/react-kakao-link.git",
   "author": "youngsoohan <amazingmobdev@gmail.com>",
   "license": "MIT",
