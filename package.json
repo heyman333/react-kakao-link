@@ -1,12 +1,12 @@
 {
   "name": "react-kakao-link",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React용 카카오 링크",
   "main": "./dist/bundle.js",
   "types": "./index.d.ts",
   "files": [
-    "./dist",
-    "./index.d.ts"
+    "dist",
+    "index.d.ts"
   ],
   "repository": "https://github.com/heyman333/react-kakao-link.git",
   "author": "youngsoohan <amazingmobdev@gmail.com>",
